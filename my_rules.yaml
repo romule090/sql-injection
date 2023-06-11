@@ -1,0 +1,5 @@
+rules:
+  - id: os-command-injection
+    pattern:
+      pattern: os.system($X)
+    message: "Potential OS command injection: $X"

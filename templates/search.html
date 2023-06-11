@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Search Page</title>
+</head>
+<body>
+    <h1>Search Page</h1>
+    <form action="/search" method="GET">
+        <label for="query">Search query:</label>
+        <input type="text" id="query" name="query">
+        <button type="submit">Search</button>
+    </form>
+    <h2>Search Results:</h2>
+    <div>{{ results }}</div>
+</body>
+</html>
